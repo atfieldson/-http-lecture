@@ -8,7 +8,10 @@
     <script src="scripts/client.js"></script>
     <title>$http</title>
 </head>
-<body>
+<body ng-app="ShellApp">
     <h1>$http lecture</h1>
+    <div ng-controller="ShellController as vm">
+    <h2>{{vm.number}}</h2> 
+    </div>
 </body>
 </html>
